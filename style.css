@@ -1,0 +1,219 @@
+body{
+    background-color: rgb(234, 228, 214);
+   
+}
+.content{
+   border-bottom: 1px solid #c1c0c0;
+display: flex;
+justify-content: center;
+
+}
+
+.navbar{
+    background-color: rgb(234, 228, 214);
+   
+height: 30px;
+display: flex;
+}
+.navbar button{
+height: 20px;
+display: flex;
+
+align-items: center;
+
+}
+.but{
+    border: 1px solid #fcfcfc;
+    border-radius: 6px;
+margin-left: 90px;
+margin-top: -20px;
+background-color: #502314 ;
+color: #f6f6f6;
+font-size: 12px;
+}
+
+.but:hover{
+    background-color: #a52b2b;
+}
+.navbar-toggler{
+    width: 7%;
+}
+.ontainer-fluid >{
+    justify-self: start;
+}
+
+.navimg{
+height: 30px;
+justify-content: center;
+}
+
+.orrder{
+margin-top: 80px;
+width: 40%;
+height: 200px;
+font-size: 50px;
+font-weight: bold;
+}
+.two{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 20px;
+    row-gap: 2px;
+}
+
+.qq{
+    border: 1px solid #ff0000;
+
+    border-radius: 30px;
+color: #ffffff;
+background-color: #e24444;
+}
+.qq:hover{
+    background-color: #a52b2b;
+}
+.bt{
+    border: 1px solid #ff0000;
+      background-color:none;
+     border-radius: 30px;
+     color: #ee1616;
+ }
+ .bt:hover{
+     background-color: #e8b0b0;
+ }
+
+ .bigburger img{
+width: 290%;
+margin-left: 350px;
+margin-top: -200px;
+}
+/* first portion ead */
+
+/* second portion start */
+.ttt{
+    width: 80%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+row-gap: 20px;
+margin-left: 60px;
+/* justify-content: center; */
+}
+
+.butto{
+    border: 1px solid #ff001e;
+background-color: rgb(253, 255, 255);
+margin-left: 60px;
+border-radius: 20px;
+color: #ee1616;
+margin-top: -90px;
+}
+.button{
+    border: 1px solid #ff001e;
+
+background-color: rgb(253, 255, 255);
+border-radius: 20px;
+color: #ee1616;
+margin-top: 15px;
+margin-left: 100px;
+}
+.button:hover{
+    background-color: #e8b0b0;
+}
+.butto:hover{
+    background-color: #e8b0b0;
+}
+/* <!-- second portion end --> */
+
+/* last portio start */
+
+.end{
+width: 40%;
+margin-left: 330px;
+margin-top: -250px;
+
+}
+.end h1{
+ 
+color:#502314 ;
+
+font-weight: bold;
+}
+.twoimg{
+    width: 30%;
+}
+.end p{
+     
+color:#502314 ;
+}
+.mobile{
+    height: 300px;
+}
+
+
+ .para{
+    border: 1px solid #201f1f;
+    font-size: 8px;
+    width: 100%;
+    text-align: center; 
+     margin-top: 40px;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color:#502314 ; 
+} 
+
+
+@media only screen and (max-width: 600px){
+
+
+
+.bb{
+height: 400px;
+}
+
+.bb p{
+width: 240%;
+}
+.bb img{
+margin-top: -360px;
+margin-left: 90px;
+}
+
+.gg{
+width: 300%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    row-gap: 10px;
+}
+.ttt{
+    display: flex;
+    height: 1600px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.mobile{
+    margin: 100px;
+    width: 40%;
+    height: 200px;
+    margin-left: 20px;
+}
+.end{
+    margin-top: -300px;
+    margin-left: 200px;
+    width: 50%;
+}
+
+}
+
+
+
